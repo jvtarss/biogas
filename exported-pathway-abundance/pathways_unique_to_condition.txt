@@ -1,39 +1,39 @@
-Condição: DOMESTIC-URBAN
-PWY-1422
-PWY-3801
+condicao: domestic-urban
+pwy-1422
+pwy-3801
 
-Condição: FOODWASTE
+condicao: foodwaste
 
 
-Condição: MANURE
-PWY-5743
-PWY-5744
-PWY-7024
-PWY-7644
+condicao: manure
+pwy-5743
+pwy-5744
+pwy-7024
+pwy-7644
 
-Condição: MIXED
-PWY-5266
-PWY-5273
-PWY-5427
-PWY-6956
-PWY-7031
-PWY-7528
+condicao: mixed
+pwy-5266
+pwy-5273
+pwy-5427
+pwy-6956
+pwy-7031
+pwy-7528
 
-Condição: SILAGE
-PWY-7209
-PWY-7274
+condicao: silage
+pwy-7209
+pwy-7274
 
-Condição: SYNTHETIC
-AEROBACTINSYN-PWY
-BENZCOA-PWY
-PWY-3941
-PWY-5184
-PWY-5499
-PWY-622
-PWY-6339
-PWY-6404
-PWY-6581
-PWY-6948
-PWY-6957
-PWY-7398
+condicao: synthetic
+aerobactinsyn-pwy
+benzcoa-pwy
+pwy-3941
+pwy-5184
+pwy-5499
+pwy-622
+pwy-6339
+pwy-6404
+pwy-6581
+pwy-6948
+pwy-6957
+pwy-7398
 
