@@ -1,7 +1,6 @@
 # Análise in silico de dados de sequenciamento amplicon RNAr 16S do NCBI SRA
 Este repositório contém os scripts, dados processados e resultados da análise in silico de dados de sequenciamento amplicon RNAr 16S de fermentadores de biogás e biodigestores anaeróbios. O estudo foi realizado entre janeiro e fevereiro de 2025, utilizando 739 amostras de sequenciamento metagenômico selecionadas a partir de 1477 amostras brutas disponíveis no NCBI Sequence Read Archive (SRA).
 
-## Descrição do Projeto
 O objetivo principal deste trabalho foi analisar os perfis microbianos presentes em diferentes fontes de substrato (resíduos urbanos, esterco, substratos sintéticos, silagem e mistos) utilizados para a produção de biogás. As amostras foram agrupadas de acordo com o tipo de biomassa e processadas utilizando a pipeline QIIME2 v2024.5 Amplicon Distribution.
 
 ### Metodologia
