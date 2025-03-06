@@ -21,4 +21,20 @@ O objetivo principal deste trabalho foi analisar os perfis microbianos presentes
 
 5. **Predição funcional**:
    - Utilização do PICRUSt2 para identificação de vias metabólicas associadas à produção de biogás e metanogênese no MetaCyc.
+   - 
+## Estrutura do reoositorio
+O repositório está organizado em arquivos e diretórios que refletem o fluxo de trabalho e os resultados da análise de dados de sequenciamento amplicon RNAr 16S. Abaixo está a descrição da estrutura:
+### Arquivos principais
+- **README.md**: Este arquivo, que descreve o projeto, a metodologia e a estrutura do repositório.
+- **BIOGAS-METADATA-FILTERING-SPREADSHEET.xlsx**: Planilha contendo os metadados filtrados e processados utilizados nas análises.
+- **qiime2_log.txt**: Arquivo de log gerado durante a execução das análises no QIIME2.
+- **metadata-combined.tsv**, **metadata-filtered.tsv**, **metadata-paired-unique.tsv**, **metadata-single-unique.tsv**, **metadata-single.tsv**: Arquivos de metadados em diferentes estágios de processamento.
 
+### Diretórios
+- **exported-pathway-abundance/**: Contém os dados exportados relacionados à abundância de vias metabólicas preditas pelo PICRUSt2.
+- **exported-pcoa/**: Arquivos exportados relacionados à análise de coordenadas principais (PCoA) para visualização de dissimilaridades.
+- **exported-shannon/**: Resultados exportados da diversidade alfa (índice de Shannon).
+- **exported-table-family-hellinger/**, **exported-table-genus-hellinger/**, **exported-table-phyla-hellinger/**: Tabelas de abundância taxonômica (família, gênero e filo) transformadas pelo método de Hellinger.
+- **exported-table-phyla/**, **exported-table/**, **exported_table/**: Tabelas de abundância taxonômica em diferentes níveis (filo, gênero, família) e formatos.
+- **family-spearman-exported-network/**, **genus-spearman-exported-network/**, **phyla-spearman-exported-network/**: Redes de correlação de Spearman exportadas para níveis taxonômicos de família, gênero e filo.
+- **output_csv/**: Arquivos CSV gerados durante as análises, incluindo tabelas de abundância e resultados intermediários.
